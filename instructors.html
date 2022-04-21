@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Instructors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+   <div style="height:50px;" class="topnav">
+        <a href="contact.html"><img alt="contact" src="img/buttons/contact_2.png" onmouseover="hoverContact(this);" onmouseout="unhoverContact(this);"></a>
+        <a href="taster.html"><img alt="taster" src="img/buttons/taster_2.png" onmouseover="hoverTaster(this);" onmouseout="unhoverTaster(this);"></a>
+        <a href="instructors.html"><img alt="instructors" src="img/buttons/instructors_2.png" onmouseover="hoverInstructors(this);" onmouseout="unhoverInstructors(this);"></a>
+        <a href="classes.html"><img alt="classes" src="img/buttons/classes_2.png" onmouseover="hoverClasses(this);" onmouseout="unhoverClasses(this);"></a>
+        <a href="about.html"><img alt="about" src="img/buttons/about_2.png" onmouseover="hoverAbout(this);" onmouseout="unhoverAbout(this);"></a>
+        <a href="home.html" ><img alt="home" src="img/buttons/home_2.png" onmouseover="hoverHome(this);" onmouseout="unhoverHome(this);"></a>
+    </div>        
+    <div style="position:relative; width: 100%; height:max-content; overflow-x: hidden; overflow-y: hidden;">
+        <img src="img/classesB.png" style="width:150%; z-index: -1; ">
+        <div style="position: absolute; color: white; width: 50%;top:10%; left:7%; border-radius: 13px;">
+            <h1 style="width: 100%; text-align: center; border-top-right-radius: 13px; border-top-left-radius: 13px; padding: 6px;">Our coaches</h1><br><br>
+            <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-between;">
+                <div style="background-color: rgba(255, 28, 73, 0.459); padding: 25px; width: 55%; margin:20px;border-bottom-right-radius: 13px; border-bottom-left-radius: 13px;">
+                    <p style="font-size: 30px; ">Rob Francis</p>
+                    <p style="font-size: 20px; color: white;font-family:Impact, fantasy;">5th Degree Black Sash (Kung fu), 4th Degree Black Sash (Kickboxing), <br>Lau Gar Guardian.</p>
+                </div>
+
+                <div style="background-color: rgba(255, 28, 73, 0.459); padding: 25px;width: 35%; margin:20px;border-bottom-right-radius: 13px; border-bottom-left-radius: 13px;">
+                    <p style="font-size: 30px;">Chris Collymore</p>
+                    <p style="font-size: 20px;font-family:Impact, fantasy;">3rd Degree Black Sash (kickboxing).</p>
+                </div>
+
+                <div style="background-color: rgba(255, 28, 73, 0.459); padding: 25px;width: 35%; margin:20px;border-bottom-right-radius: 13px; border-bottom-left-radius: 13px;">
+                    <p style="font-size: 30px;">Neville Palmer</p>
+                    <p style="font-size: 20px;font-family:Impact, fantasy;">1st Degree Black Sash (Kung fu), 3rd Degree Black Sash (Kickboxing).</p>
+                </div>
+
+                <div style="background-color: rgba(255, 28, 73, 0.459); padding: 25px;width: 55%; margin:20px;border-bottom-right-radius: 13px; border-bottom-left-radius: 13px;">
+                    <p style="font-size: 30px;">Jamaine Brown</p>
+                    <p style="font-size: 20px;font-family:Impact, fantasy;">1st Degree Black Sash (Kung fu), 1st Degree Black Sash (Kickboxing).</p>
+                </div>
+                 
+            </div>
+             
+        </div>
+    </div>
+       
+</body>
+
+</html>
+<script>
+function hoverHome(element)
+    {
+        element.setAttribute('src','img/buttons/home_1.png');
+    }
+    function unhoverHome(element)
+    {
+        element.setAttribute('src','img/buttons/home_2.png');
+    }
+    function hoverAbout(element)
+    {
+        element.setAttribute('src','img/buttons/about_1.png');
+    }
+    function unhoverAbout(element)
+    {
+        element.setAttribute('src','img/buttons/about_2.png');
+    }
+    
+    
+    function hoverClasses(element)
+    {
+        element.setAttribute('src','img/buttons/classes_1.png');
+    }
+    function unhoverClasses(element)
+    {
+        element.setAttribute('src','img/buttons/classes_2.png');
+    }
+    
+    
+    
+    function hoverInstructors(element)
+    {
+        element.setAttribute('src','img/buttons/instructors_1.png');
+    }
+    function unhoverInstructors(element)
+    {
+        element.setAttribute('src','img/buttons/instructors_2.png');
+    }
+    
+    
+       function hoverTaster(element)
+    {
+        element.setAttribute('src','img/buttons/taster_1.png');
+    }
+    function unhoverTaster(element)
+    {
+        element.setAttribute('src','img/buttons/taster_2.png');
+    }
+    
+    
+    
+    function hoverContact(element)
+    {
+        element.setAttribute('src','img/buttons/contact_1.png');
+    }
+    function unhoverContact(element)
+    {
+        element.setAttribute('src','img/buttons/contact_2.png');
+    }
+</script>

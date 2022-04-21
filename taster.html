@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Taster</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <img src="img/tasterB.png" alt="Background Image" class="IBackground">
+   <div style="height:50px;" class="topnav">
+        <a href="contact.html"><img alt="contact" src="img/buttons/contact_2.png" onmouseover="hoverContact(this);" onmouseout="unhoverContact(this);"></a>
+        <a href="taster.html"><img alt="taster" src="img/buttons/taster_2.png" onmouseover="hoverTaster(this);" onmouseout="unhoverTaster(this);"></a>
+        <a href="instructors.html"><img alt="instructors" src="img/buttons/instructors_2.png" onmouseover="hoverInstructors(this);" onmouseout="unhoverInstructors(this);"></a>
+        <a href="classes.html"><img alt="classes" src="img/buttons/classes_2.png" onmouseover="hoverClasses(this);" onmouseout="unhoverClasses(this);"></a>
+        <a href="about.html"><img alt="about" src="img/buttons/about_2.png" onmouseover="hoverAbout(this);" onmouseout="unhoverAbout(this);"></a>
+        <a href="home.html" ><img alt="home" src="img/buttons/home_2.png" onmouseover="hoverHome(this);" onmouseout="unhoverHome(this);"></a>
+    </div>
+    <div style="width:100%">
+        <h1 style="text-align: center;font-weight: bold;">Book Your Trial Class</h1>
+        <form action=" mailto:info@promartialarts.co.uk" method="POST" enctype="text/plain">
+            <div class="CForm" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <div style="width:40%; display: flex; justify-content: space-between;">
+                    <input id="name" type="text" placeholder="Name:">
+                    <input id="email" type="text" placeholder="Email:">
+                </div>
+                <div style="width:40%; display: flex; justify-content: space-between;">
+                    <input id="phone" type="number" placeholder="Phone:">
+                    <select>
+                        <option>Class...</option>
+                        <option>Kung Fu</option>
+                        <option>Kick Boxing</option>
+                    </select>
+                </div>
+
+                <textarea id="textAR" style="width:40%;height:150px;margin:20px;border-radius:5px;top:40%;left:31%;"
+                    placeholder="Type text..."></textarea><br>
+                <div style="width:40%; display: flex; justify-content: space-between;">
+                    <button style="border-radius: 5px;width: 100px;height:50px;" type=submit>Send</button>
+                    <button style="border-radius: 5px;width: 100px;height:50px" type="button" onclick="Reset()">Reset</button>
+                </div>
+            </div>
+
+            <div style="width: 100%; display: flex; justify-content: center;">
+                <img src="img/icon.png" alt="logo" style="width:10%; margin: 20px;">
+            </div>
+
+            <script src="script.js"></script>
+        </form>
+    </div>
+
+</body>
+
+</html>
+<script>
+function hoverHome(element)
+    {
+        element.setAttribute('src','img/buttons/home_1.png');
+    }
+    function unhoverHome(element)
+    {
+        element.setAttribute('src','img/buttons/home_2.png');
+    }
+    function hoverAbout(element)
+    {
+        element.setAttribute('src','img/buttons/about_1.png');
+    }
+    function unhoverAbout(element)
+    {
+        element.setAttribute('src','img/buttons/about_2.png');
+    }
+    
+    
+    function hoverClasses(element)
+    {
+        element.setAttribute('src','img/buttons/classes_1.png');
+    }
+    function unhoverClasses(element)
+    {
+        element.setAttribute('src','img/buttons/classes_2.png');
+    }
+    
+    
+    
+    function hoverInstructors(element)
+    {
+        element.setAttribute('src','img/buttons/instructors_1.png');
+    }
+    function unhoverInstructors(element)
+    {
+        element.setAttribute('src','img/buttons/instructors_2.png');
+    }
+    
+    
+       function hoverTaster(element)
+    {
+        element.setAttribute('src','img/buttons/taster_1.png');
+    }
+    function unhoverTaster(element)
+    {
+        element.setAttribute('src','img/buttons/taster_2.png');
+    }
+    
+    
+    
+    function hoverContact(element)
+    {
+        element.setAttribute('src','img/buttons/contact_1.png');
+    }
+    function unhoverContact(element)
+    {
+        element.setAttribute('src','img/buttons/contact_2.png');
+    }
+</script>

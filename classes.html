@@ -1,0 +1,151 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <title>Classes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body style="position: relative">
+    <img src="img/roof.png" class="IBackground">
+    <div style="height:50px;" class="topnav">
+        <a href="contact.html"><img alt="contact" src="img/buttons/contact_2.png" onmouseover="hoverContact(this);" onmouseout="unhoverContact(this);"></a>
+        <a href="taster.html"><img alt="taster" src="img/buttons/taster_2.png" onmouseover="hoverTaster(this);" onmouseout="unhoverTaster(this);"></a>
+        <a href="instructors.html"><img alt="instructors" src="img/buttons/instructors_2.png" onmouseover="hoverInstructors(this);" onmouseout="unhoverInstructors(this);"></a>
+        <a href="classes.html"><img alt="classes" src="img/buttons/classes_2.png" onmouseover="hoverClasses(this);" onmouseout="unhoverClasses(this);"></a>
+        <a href="about.html"><img alt="about" src="img/buttons/about_2.png" onmouseover="hoverAbout(this);" onmouseout="unhoverAbout(this);"></a>
+        <a href="home.html" ><img alt="home" src="img/buttons/home_2.png" onmouseover="hoverHome(this);" onmouseout="unhoverHome(this);"></a>
+    </div>
+    <h1 style="text-align:center;font-weight:bold; margin-top: 20px;">Classes Time table</h1>
+    <table style="width:100%;">
+        <tr class="MEls">
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+        </tr>
+        <tr class="TELS2">
+            <td>
+                <p>5:00pm – 5:45pm – Children’s Kickboxing (All Grades / Mixed Class / 6 years +)</p>
+                <hr style="border-width:0.1em;background-color:black;">
+                <p>6:00pm – 6:45pm – Adult’s Kickboxing (All Grades / Mixed Class / 13 years +)</p>
+                <hr style="border-width:0.1em;background-color:black;">
+                <p>7:00pm – 7:45pm – Ladies Only Cardio KickFit (All Fitness Levels)</p>
+            </td>
+            <td>
+                <p>5:45pm – 6:30pm – Children’s Lau Gar Kung Fu (All Grades / Mixed Class / 6 years +)</p>
+                <hr style="border-width:0.1em;background-color:black;">
+                <p>6:45pm – 8:00pm – Adult’s Lau Gar Kung Fu (All Grades / Mixed Class / 13 years +)</p>
+            </td>
+            <td>
+                <p>5:00pm – 5:45pm – Children’s Kickboxing (All Grades / Mixed Class / 6 years +)</p>
+                <hr style="border-width:0.1em;background-color:black;">
+                <p>6:00pm – 6:45pm – Adult’s Kickboxing (All Grades / Mixed Class / 13 years +)</p>
+                <hr style="border-width:0.1em;background-color:black;">
+                <p>7:00pm – 7:45pm – Ladies Only Cardio KickFit (All Fitness Levels)</p>
+            </td>
+            <td>
+                <p>6:00pm – 6:45pm – Adult’s Kickboxing (All Grades / Mixed Class / 13 years +)</p>
+            </td>
+            <td>
+                <p>NO SCHEDULED CLASSES (CLOSED)</p>
+            </td>
+            <td>
+                <p>10:00am – 12:00pm – ADVANCED Squad Training (INVITATION ONLY)</p>
+                <hr style="border-width:0.1em;background-color:black;">
+                <p>11:30am – 12:15pm – Children’s Kickboxing (All Grades / Mixed Class / 6 years +)</p>
+            </td>
+            <td>
+                <p>09:30am – 10:15am – Children’s Lau Gar Kung Fu (All Grades / Mixed Class / 6 years +)</p>
+                <hr style="border-width:0.1em;background-color:black;">
+                <p>10:30am – 11:45pm – Adult’s Lau Gar Kung Fu (All Grades / Mixed Class / 13 years +)</p>
+            </td>
+        </tr>
+    </table>
+    <p class="ClassesText">
+        It is compulsory for all PMA members to wear their club uniform and belts for all Kung Fu and Kickboxing
+        classes. Ladies Cardio KickFit requires comfortable but appropriate clothing.
+        <br>
+        As safety of all students is paramount when training at the club, can we ask that you safety equipment be worn
+        during your controlled sparring sessions.<br>
+        Our Fitness/Weights room is available for our members to use during our opening times as per above.
+
+        The Ladies Cardio KickFit class is not part of our main Martial Arts Program and is run on a rolling 8-week
+        course.<br>
+
+        All classes (except Saturday Squad Training) are open to all fitness levels and abilities including
+        beginners.<br>
+
+        All classes taught by Black Belt instructors who are DBS cleared and First Aid certified.<br>
+        Our venue is available for hire or ask us to help facilitate your events.
+
+    </p>
+</body>
+
+</html>
+<script>
+function hoverHome(element)
+    {
+        element.setAttribute('src','img/buttons/home_1.png');
+    }
+    function unhoverHome(element)
+    {
+        element.setAttribute('src','img/buttons/home_2.png');
+    }
+    function hoverAbout(element)
+    {
+        element.setAttribute('src','img/buttons/about_1.png');
+    }
+    function unhoverAbout(element)
+    {
+        element.setAttribute('src','img/buttons/about_2.png');
+    }
+    
+    
+    function hoverClasses(element)
+    {
+        element.setAttribute('src','img/buttons/classes_1.png');
+    }
+    function unhoverClasses(element)
+    {
+        element.setAttribute('src','img/buttons/classes_2.png');
+    }
+    
+    
+    
+    function hoverInstructors(element)
+    {
+        element.setAttribute('src','img/buttons/instructors_1.png');
+    }
+    function unhoverInstructors(element)
+    {
+        element.setAttribute('src','img/buttons/instructors_2.png');
+    }
+    
+    
+       function hoverTaster(element)
+    {
+        element.setAttribute('src','img/buttons/taster_1.png');
+    }
+    function unhoverTaster(element)
+    {
+        element.setAttribute('src','img/buttons/taster_2.png');
+    }
+    
+    
+    
+    function hoverContact(element)
+    {
+        element.setAttribute('src','img/buttons/contact_1.png');
+    }
+    function unhoverContact(element)
+    {
+        element.setAttribute('src','img/buttons/contact_2.png');
+    }
+</script>

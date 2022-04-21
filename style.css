@@ -1,0 +1,261 @@
+.head
+{
+    position:absolute;
+    left:50%;
+    
+}
+.HomeText
+{
+    position: absolute;
+    text-align: center;
+    left:5%;
+    top:50%;
+    font-size: large;
+    
+}
+.loggoAbout
+{
+       position: absolute;
+    left:13%;
+    top:15%;
+  float:left;
+  width:10%;
+    height:15%;   
+}
+.loggoLau
+{
+       position: absolute;
+    left:13%;
+    top:55%;
+  float:left;
+  width:10%;
+    height:15%;
+}
+.body
+{
+    text-align: center;
+    
+}
+.head1
+{
+  position:absolute;
+    left:40%;   
+}
+.loggoKick
+{
+    position: absolute;
+    left:10%;
+    top:75%;
+  float:left;
+  width:15%;
+    height:15%;
+    
+}
+.FImage
+{
+    margin-top:-100px;
+    width:100%;
+    height:40%;
+    background-image:url("img/header.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+input
+{
+    height:3em;
+    border-radius:5px;
+    border-width:0.2px;
+    width:18em;
+}
+
+.IBackground
+{
+     pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.RButton
+{
+    width:100px;
+    height:40px;
+    border-radius:5px;
+    
+}
+.LButton
+{
+    width:100px;
+    height:40px;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+.Header-home
+{
+    text-align: center;
+}
+
+select
+{
+    height:3em;
+    width:18em;
+    border-radius:5px;
+    border-width:0.2px;
+}
+.CForm
+{
+   margin-top:5%;
+    text-align: center;
+    
+}
+.tx-Instruct
+{
+    
+  
+    font-family:sans-serif;
+    width:50%;
+    height:50%;
+    color:white;
+}
+table
+{
+    margin-top:100px;
+}
+
+td p
+{
+    font-weight: bold;
+}
+.Contacts
+{
+  
+  padding: 10px 10px 0px 10px;
+  bottom: 50%;
+  width: 100%;
+  height: auto;   
+    text-align: center;
+
+}
+.ClassesText
+{
+    position: absolute;
+    text-align: center;
+    top:80%;
+    
+}
+table,tr,td
+{
+    border:3px solid
+}
+.TELS2
+{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,242,0,1) 0%, rgba(223,34,34,1) 91%);
+}
+th
+{
+    color:white;
+}
+.MEls
+{
+    background-color:black;
+}
+.tx
+{
+
+      background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-prompt);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 500;
+  height: auto;
+  left: auto;
+  letter-spacing: 0.00px;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: auto;
+  width: 100%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav p
+{
+    float:left;
+    font-size:1.5em;
+    color:white;
+    padding-top:0.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav img
+{
+    width:3em;
+    height:3em;
+    float:left;
+}
+.topnav a img{
+
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+    width:100px;
+    height:60px;
+}
+
+
+
+.topnav a.active {
+  background-color: #FFC83A;
+  color: white;
+}
+footer {
+  position: fixed;
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+background-image: url("img/footer.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+  color: white;
+}
+.ClassTXT{
+    text-align: center;
+}
+.foot{
+    width:100%;
+    height:20%;
+    background-color:yellow;
+    border-radius: 20px;
+    
+}
+.fPart
+{
+    font-weight:bold;
+    margin-left:100px;
+    float:left;
+    
+}
+.sPart
+{
+    font-weight:bold;
+    margin-right:100px;
+    line-height: 0%;
+    float:right;
+    margin-top: 2%;
+
+}
+table, th, td {
+  border:1px solid black;
+}
+.MEls
+{
+    text-align: center;
+}
